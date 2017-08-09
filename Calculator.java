@@ -16,9 +16,9 @@ public class Calculator
  // FIX the line below!
  return a * b;
  }
-public static float divide(int top, int bottom)
+public static float divide(int a, int b)
     {
-        float answer = (float)top / (float)bottom;
+        float answer = (float)a / (float)b;
         return answer;
     }
  public static void main(String[] args)
